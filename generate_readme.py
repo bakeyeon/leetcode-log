@@ -1,7 +1,7 @@
 import os
 import re
 
-NOTES_DIR = "notes"
+NOTES_DIR = "easy"
 README_PATH = "README.md"
 
 entry_template = "- [{title}](notes/{filename}) | {date} | {time} | {difficulty}"
