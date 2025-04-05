@@ -1,16 +1,18 @@
 import os
 import re
 
-NOTES_DIR = "easy"
+NOTES_DIR = "easy"  
 README_PATH = "README.md"
 
-entry_template = "- [{title}](notes/{filename}) | {date} | {time} | {difficulty}"
+AUTO_START = "<!-- PROBLEM_LIST_START -->"
+AUTO_END = "<!-- PROBLEM_LIST_END -->"
+
+entry_template = "- [{title}]({relpath}) | {date} | {time} | {difficulty}"
 
 def extract_metadata(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Extract fields using simple regex or line search
     title_match = re.search(r"#\s+\d+\.\s+(.*)", content)
     date_match = re.search(r"Solved on:\s*(.*)", content)
     time_match = re.search(r"Time taken:\s*(.*)", content)
@@ -32,20 +34,29 @@ def build_readme():
         meta = extract_metadata(path)
         entries.append(entry_template.format(
             title=meta["title"],
-            filename=fname,
+            relpath=os.path.join(NOTES_DIR, fname),
             date=meta["date"],
             time=meta["time"],
             difficulty=meta["difficulty"]
         ))
 
-    # Write to README
+    problem_table = []
+    problem_table.append("Problem | Date | Time Taken | Difficulty")
+    problem_table.append("--- | --- | --- | ---")
+    problem_table += entries
+
+    with open(README_PATH, "r", encoding="utf-8") as f:
+        original = f.read()
+
+    updated = re.sub(
+        f"{AUTO_START}.*?{AUTO_END}",
+        f"{AUTO_START}\n" + "\n".join(problem_table) + f"\n{AUTO_END}",
+        original,
+        flags=re.DOTALL
+    )
+
     with open(README_PATH, "w", encoding="utf-8") as f:
-        f.write("# leetcode-log\n\n")
-        f.write("Auto-generated list of solved problems:\n\n")
-        f.write("Problem | Date | Time Taken | Difficulty\n")
-        f.write("--- | --- | --- | ---\n")
-        for entry in entries:
-            f.write(f"{entry}\n")
+        f.write(updated)
 
 if __name__ == "__main__":
     build_readme()
