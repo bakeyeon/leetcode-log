@@ -15,3 +15,8 @@ Convert a Roman numeral string into its integer representation.
 ## What I learned
 - How to handle string scanning with conditionals.
 - The importance of checking longer substrings before shorter ones to avoid incorrect parsing.
+
+## Metadata
+- Solved on: 2025-04-05
+- Time taken: ~25 minutes
+- Difficulty: Easy
