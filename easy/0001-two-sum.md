@@ -10,7 +10,7 @@ return the indices of the two numbers such that they add up to `target`.
   If the complement exists in the hash map, I return the current index and the index of the complement.  
   If not, I store the current number and its index in the hash map for future lookup.
 
-## Code (simple version)
+## Code
 → See `easy/0001-two-sum.py`
 
 ## What I learned
