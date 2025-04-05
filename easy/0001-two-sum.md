@@ -16,3 +16,8 @@ return the indices of the two numbers such that they add up to `target`.
 ## What I learned
 - Got more familiar with the pattern of using hash maps for efficient lookups.
 - It would be a good idea to implement the same problem again in Java for practice.
+
+## Metadata
+- Solved on: 2025-04-05
+- Time taken: ~30 minutes
+- Difficulty: Easy
