@@ -13,7 +13,7 @@ The main goal is to track my learning process by saving my code along with expla
 
 ## Weekly Plan
 
-📌 Starting with a goal of solving 2 problems a day for a month — just to build the habit. (Apr 2025)
+📌 Starting with a goal of solving 2 easy problems a day for a month to build the habit. (Apr 2025)
 
 | Day            | Plan                                      |
 |----------------|-------------------------------------------|
