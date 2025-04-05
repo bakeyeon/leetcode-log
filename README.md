@@ -14,7 +14,7 @@ The main goal is to track my learning process by saving my code along with expla
 ## Commit Message Templete
 Add solution and explanation for 00XX [Problem Name]
 
----
+
 
 ## 🧾 Problem Log (auto-generated)
 
