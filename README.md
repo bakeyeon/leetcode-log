@@ -18,7 +18,7 @@ The main goal is to track my learning process by saving my code along with expla
 <!-- PROBLEM_LIST_START -->
 Problem | Date | Time Taken | Difficulty
 --- | --- | --- | ---
-- [Unknown](easy/0001-two-sum.md) | 2025-04-05 | ~30 minutes | Easy
+- [Two Sum](easy/0001-two-sum.md) | 2025-04-05 | ~30 minutes | Easy
 - [Roman to Integer](easy/0013-roman-to-integer.md) | 2025-04-05 | ~25 minutes | Easy
 <!-- PROBLEM_LIST_END -->
 
