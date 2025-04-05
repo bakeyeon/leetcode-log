@@ -16,7 +16,7 @@ Add solution and explanation for 00XX [Problem Name]
 
 
 
-## 🧾 Problem Log (auto-generated)
+## Problem Log (auto-generated)
 
 <!-- PROBLEM_LIST_START -->
 Problem | Date | Time Taken | Difficulty
