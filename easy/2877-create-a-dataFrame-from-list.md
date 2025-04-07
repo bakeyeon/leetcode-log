@@ -1,0 +1,28 @@
+# 2877. Create a DataFrame from List
+
+## Problem Summary  
+Given a 2D list containing student IDs and ages,  
+create a DataFrame with two columns: `student_id` and `age`.  
+The order of rows must be preserved.
+
+## Solution Method  
+While solving this, I realized it's really straightforward with pandas.  
+Just passing the list and specifying column names is enough.  
+There's no need for looping or preprocessing – pandas handles everything neatly.
+
+I used `pd.DataFrame()` to convert the 2D list directly into a DataFrame, specifying column names at the same time.
+
+## Code  
+→ See `easy/0001-create-a-dataFrame-from-list.py`
+
+## What I Learned  
+- Sometimes, there's no need to overthink – just use the tools you already have.  
+- Creating a DataFrame from structured data like a 2D list is super easy in pandas.  
+- **Naming matters.** Giving the input list a clear name like `student_data` makes the code self-explanatory.  
+- **Column names are key.** Choosing intuitive column names like `student_id` and `age` helps keep your DataFrame readable and easy to use later.  
+- Might sound obvious, but it's good to **remember that pandas assumes your list starts with rows** — so 2D list structure needs to be consistent.
+
+## Metadata  
+- Solved on: 2025-04-07  
+- Time taken: ~1 minute (lol)  
+- Difficulty: Easy  
