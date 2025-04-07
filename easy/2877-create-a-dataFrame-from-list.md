@@ -6,10 +6,6 @@ create a DataFrame with two columns: `student_id` and `age`.
 The order of rows must be preserved.
 
 ## Solution Method  
-While solving this, I realized it's really straightforward with pandas.  
-Just passing the list and specifying column names is enough.  
-There's no need for looping or preprocessing – pandas handles everything neatly.
-
 I used `pd.DataFrame()` to convert the 2D list directly into a DataFrame, specifying column names at the same time.
 
 ## Code  
