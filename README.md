@@ -32,6 +32,7 @@ Problem | Date | Time Taken | Difficulty
 --- | --- | --- | ---
 - [Two Sum](easy/0001-two-sum.md) | 2025-04-05 | ~30 minutes | Easy
 - [Roman to Integer](easy/0013-roman-to-integer.md) | 2025-04-05 | ~25 minutes | Easy
+- [Create a DataFrame from List](easy/2877-create-a-dataFrame-from-list.md) | 2025-04-07 | ~1 minute (lol) | Easy
 <!-- PROBLEM_LIST_END -->
 
 
