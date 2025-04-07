@@ -13,7 +13,7 @@ There's no need for looping or preprocessing – pandas handles everything neatl
 I used `pd.DataFrame()` to convert the 2D list directly into a DataFrame, specifying column names at the same time.
 
 ## Code  
-→ See `easy/0001-create-a-dataFrame-from-list.py`
+→ See `easy/2877-create-a-dataFrame-from-list.py`
 
 ## What I Learned  
 - Sometimes, there's no need to overthink – just use the tools you already have.  
