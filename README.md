@@ -32,7 +32,7 @@ Problem | Date | Time Taken | Difficulty
 --- | --- | --- | ---
 - [Two Sum](easy/0001-two-sum.md) | 2025-04-05 | ~30 minutes | Easy
 - [Roman to Integer](easy/0013-roman-to-integer.md) | 2025-04-05 | ~25 minutes | Easy
-- [Create a DataFrame from List](easy/2877-create-a-dataFrame-from-list.md) | 2025-04-07 | ~1 minute (lol) | Easy
+- [Create a DataFrame from List](easy/2877-create-a-dataFrame-from-list.md) | 2025-04-07 | ~1 minute | Easy
 - [Get the Size of a DataFrame](easy/2878-size-of-df.md) | 2025-04-07 | ~30 seconds | Easy
 - [Display the First Three Rows](easy/2879-display-the-first-three-rows.md) | 2025-04-07 | ~10 seconds | Easy
 - [Select Data](easy/2880-select-data.md) | 2025-04-07 | ~30 seconds | Easy
