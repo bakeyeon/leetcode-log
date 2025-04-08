@@ -37,6 +37,7 @@ Problem | Date | Time Taken | Difficulty
 - [Display the First Three Rows](easy/2879-display-the-first-three-rows.md) | 2025-04-07 | ~10 seconds | Easy
 - [Select Data](easy/2880-select-data.md) | 2025-04-07 | ~30 seconds | Easy
 - [Create a New Column](easy/2881-create-a-new-column.md) | 2025-04-07 | ~45 seconds | Easy
+- [Drop Duplicate Rows](easy/2882-drop-duplicate-rows.md) | 2025-04-08 | 1 min | Easy
 <!-- PROBLEM_LIST_END -->
 
 
