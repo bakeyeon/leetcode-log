@@ -19,5 +19,5 @@ explicitly specifying the column names in the process.
 
 ## Metadata  
 - Solved on: 2025-04-07  
-- Time taken: ~1 minute (lol)  
+- Time taken: ~1 minute 
 - Difficulty: Easy  
