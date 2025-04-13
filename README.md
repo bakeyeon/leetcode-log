@@ -41,5 +41,6 @@ Problem | Date | Time Taken | Difficulty
 - [Drop Missing Data](easy/2883-drop-missing-data.md) | 2025-04-08 | 3 min | Easy
 <!-- PROBLEM_LIST_END -->
 
+Note: There seems to be an error loading the list. The code will be fixed soon.
 
 
